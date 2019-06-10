@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC94D71822ADA0B700E727CB /* protocol GameBackgroundSpriteable + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC94D71722ADA0B700E727CB /* protocol GameBackgroundSpriteable + Extension.swift */; };
+		BCB4497B22AD80B700271DA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB4497A22AD80B700271DA0 /* AppDelegate.swift */; };
+		BCB4498122AD80B700271DA0 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB4498022AD80B700271DA0 /* GameScene.swift */; };
+		BCB4498322AD80B700271DA0 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB4498222AD80B700271DA0 /* GameViewController.swift */; };
+		BCB4498622AD80B700271DA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCB4498422AD80B700271DA0 /* Main.storyboard */; };
+		BCB4498B22AD80B800271DA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCB4498922AD80B800271DA0 /* LaunchScreen.storyboard */; };
+		BCB4499322AD835B00271DA0 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB4499222AD835B00271DA0 /* Background.swift */; };
+		BCB4499522AD856F00271DA0 /* Island.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB4499422AD856F00271DA0 /* Island.swift */; };
+		BCB4499722AD8C5D00271DA0 /* Cloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB4499622AD8C5D00271DA0 /* Cloud.swift */; };
+		BCB4499922AD964E00271DA0 /* PlayerPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB4499822AD964E00271DA0 /* PlayerPlane.swift */; };
+		BCDE8C8422AD975F008BEA26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCDE8C8322AD975F008BEA26 /* Assets.xcassets */; };
+		BCDE8C8622AD9791008BEA26 /* PlayerPlane.atlas in Resources */ = {isa = PBXBuildFile; fileRef = BCDE8C8522AD9791008BEA26 /* PlayerPlane.atlas */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC94D71722ADA0B700E727CB /* protocol GameBackgroundSpriteable + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "protocol GameBackgroundSpriteable + Extension.swift"; sourceTree = "<group>"; };
+		BCB4497722AD80B700271DA0 /* WarFly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarFly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCB4497A22AD80B700271DA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCB4498022AD80B700271DA0 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		BCB4498222AD80B700271DA0 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		BCB4498522AD80B700271DA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCB4498A22AD80B800271DA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCB4498C22AD80B800271DA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCB4499222AD835B00271DA0 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		BCB4499422AD856F00271DA0 /* Island.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Island.swift; sourceTree = "<group>"; };
+		BCB4499622AD8C5D00271DA0 /* Cloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cloud.swift; sourceTree = "<group>"; };
+		BCB4499822AD964E00271DA0 /* PlayerPlane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerPlane.swift; sourceTree = "<group>"; };
+		BCDE8C8322AD975F008BEA26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCDE8C8522AD9791008BEA26 /* PlayerPlane.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = PlayerPlane.atlas; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCB4497422AD80B700271DA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCB4496E22AD80B700271DA0 = {
+			isa = PBXGroup;
+			children = (
+				BCB4497922AD80B700271DA0 /* WarFly */,
+				BCB4497822AD80B700271DA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCB4497822AD80B700271DA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCB4497722AD80B700271DA0 /* WarFly.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCB4497922AD80B700271DA0 /* WarFly */ = {
+			isa = PBXGroup;
+			children = (
+				BCB4497A22AD80B700271DA0 /* AppDelegate.swift */,
+				BCB4498022AD80B700271DA0 /* GameScene.swift */,
+				BCB4499422AD856F00271DA0 /* Island.swift */,
+				BCB4499622AD8C5D00271DA0 /* Cloud.swift */,
+				BC94D71722ADA0B700E727CB /* protocol GameBackgroundSpriteable + Extension.swift */,
+				BCB4499822AD964E00271DA0 /* PlayerPlane.swift */,
+				BCB4499222AD835B00271DA0 /* Background.swift */,
+				BCB4498222AD80B700271DA0 /* GameViewController.swift */,
+				BCB4498422AD80B700271DA0 /* Main.storyboard */,
+				BCDE8C8322AD975F008BEA26 /* Assets.xcassets */,
+				BCDE8C8522AD9791008BEA26 /* PlayerPlane.atlas */,
+				BCB4498922AD80B800271DA0 /* LaunchScreen.storyboard */,
+				BCB4498C22AD80B800271DA0 /* Info.plist */,
+			);
+			path = WarFly;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCB4497622AD80B700271DA0 /* WarFly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCB4498F22AD80B800271DA0 /* Build configuration list for PBXNativeTarget "WarFly" */;
+			buildPhases = (
+				BCB4497322AD80B700271DA0 /* Sources */,
+				BCB4497422AD80B700271DA0 /* Frameworks */,
+				BCB4497522AD80B700271DA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WarFly;
+			productName = WarFly;
+			productReference = BCB4497722AD80B700271DA0 /* WarFly.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCB4496F22AD80B700271DA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Sashko Shel";
+				TargetAttributes = {
+					BCB4497622AD80B700271DA0 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = BCB4497222AD80B700271DA0 /* Build configuration list for PBXProject "WarFly" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCB4496E22AD80B700271DA0;
+			productRefGroup = BCB4497822AD80B700271DA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCB4497622AD80B700271DA0 /* WarFly */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCB4497522AD80B700271DA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB4498622AD80B700271DA0 /* Main.storyboard in Resources */,
+				BCDE8C8622AD9791008BEA26 /* PlayerPlane.atlas in Resources */,
+				BCDE8C8422AD975F008BEA26 /* Assets.xcassets in Resources */,
+				BCB4498B22AD80B800271DA0 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCB4497322AD80B700271DA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB4498122AD80B700271DA0 /* GameScene.swift in Sources */,
+				BCB4499922AD964E00271DA0 /* PlayerPlane.swift in Sources */,
+				BC94D71822ADA0B700E727CB /* protocol GameBackgroundSpriteable + Extension.swift in Sources */,
+				BCB4499722AD8C5D00271DA0 /* Cloud.swift in Sources */,
+				BCB4498322AD80B700271DA0 /* GameViewController.swift in Sources */,
+				BCB4497B22AD80B700271DA0 /* AppDelegate.swift in Sources */,
+				BCB4499522AD856F00271DA0 /* Island.swift in Sources */,
+				BCB4499322AD835B00271DA0 /* Background.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BCB4498422AD80B700271DA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCB4498522AD80B700271DA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCB4498922AD80B800271DA0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCB4498A22AD80B800271DA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCB4498D22AD80B800271DA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCB4498E22AD80B800271DA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCB4499022AD80B800271DA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 982G9U8P5U;
+				INFOPLIST_FILE = WarFly/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SashkoShel.l2hw2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCB4499122AD80B800271DA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 982G9U8P5U;
+				INFOPLIST_FILE = WarFly/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SashkoShel.l2hw2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCB4497222AD80B700271DA0 /* Build configuration list for PBXProject "WarFly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCB4498D22AD80B800271DA0 /* Debug */,
+				BCB4498E22AD80B800271DA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCB4498F22AD80B800271DA0 /* Build configuration list for PBXNativeTarget "WarFly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCB4499022AD80B800271DA0 /* Debug */,
+				BCB4499122AD80B800271DA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCB4496F22AD80B700271DA0 /* Project object */;
+}
